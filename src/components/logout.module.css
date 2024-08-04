@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+.container p{
+    font-size: 1.25rem;
+}
+
+.container button{
+    background-color: #867050;
+    padding: 0.5rem 2rem;
+    border: 1px solid #867050;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.container button:hover{
+    background-color:  #845e26;
+    border: 1px solid   #845e26;
+}
